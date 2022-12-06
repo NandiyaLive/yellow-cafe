@@ -7,9 +7,9 @@ const Contact = () => {
         <div className="w-1/2 sm:w-full">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63320.41799145178!2d80.59067589571481!3d7.294629083469905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae366266498acd3%3A0x411a3818a1e03c35!2sKandy!5e0!3m2!1sen!2slk!4v1670304981614!5m2!1sen!2slk"
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
             className="w-full h-64"
           ></iframe>
 
@@ -118,7 +118,7 @@ const Contact = () => {
           <div className="md:flex md:items-center">
             <div className="md:w-1/3">
               <button
-                className="shadow bg-sky-600 text-white hover:bg-sky-700 dark:bg-sky-300 dark:text-black dark:hover:bg-sky-400 focus:shadow-outline focus:outline-none text-xl font-medium py-2 px-6 rounded"
+                className="shadow bg-sky-600 bg-yellow-400 text-black focus:outline-none text-xl font-medium py-2 px-6 rounded"
                 type="submit"
               >
                 Send
