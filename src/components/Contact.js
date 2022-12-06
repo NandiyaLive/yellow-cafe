@@ -56,7 +56,7 @@ const Contact = () => {
           </ul>
         </div>
 
-        <form className="w-1/2 sm:w-full" action="https://formspree.io/f/mkneaplp" method="POST">
+        <form className="w-1/2 sm:w-full" action="" method="">
           {/* <h1 className="text-4xl font-semibold mb-4">Contact Us</h1> */}
           <div className="flex mb-6 space-x-3">
             <div className="w-full md:w-1/2 md:mb-0">
